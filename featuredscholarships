@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Featured Scholarships</title>
+<link rel="stylesheet" type="text/css" href="">
+</head>
+<body>
+
+  <h1><center>Featured Scholarships</h1>
+
+  <div class="scholarships-container">
+    <div class="card">
+      <h2><center>Computer Science Student Scholarship</h2>
+      <p><strong>Amount:</strong> $1,000 - $2,000</p>
+      <p><strong>Deadline:</strong> May 11, 2025</p>
+      <p>Selection is based upon financial need, academic achievement, and personal and professional goals for CS majors.</p>
+      <a href="login.html">Apply</a>
+    </div>
+
+    <div class="card">
+      <h2><center>National STEM Major's Society</h2>
+      <p><strong>Amount:</strong> $10,000</p>
+      <p><strong>Deadline:</strong> January 24, 2026</p>
+      <p>Members that major in science, technology, engineering, and mathematics nominated for team effort and great performance.</p>
+      <a href="login.html">Apply</a>
+    </div>
+
+    <div class="card">
+      <h2><center>ESET Women in Cybersecurity</h2>
+      <p><strong>Amount:</strong> $10,000</p>
+      <p><strong>Deadline:</strong> April 8, 2025</p>
+      <p>ESET North America offers the Women in Cybersecurity Scholarship to help close the gender gap in STEM and cybersecurity.</p>
+      <a href="login.html">Apply</a>
+    </div>
+  </div>
+
+</body>
+</html>
