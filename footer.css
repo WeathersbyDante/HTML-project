@@ -1,11 +1,12 @@
+/* Footer Styling */
 footer {
-	background-color: #f2f2f2;
+	background-color: #DEF1FF;   /* Light/Faded Blue */
 	padding: 30px 20px;
-	text-align: center
+	text-align: center;
 	font-family: sans-serif;
-	color: #333;
+	color: #025498;   /* Dark Blue Text */
 	font-size: 0.95em;
-	margin-top: 40px
+	margin-top: 40px;
 }
 
 footer .footer-links {
@@ -14,12 +15,15 @@ footer .footer-links {
 	gap: 15px;
 	margin-bottom: 10px;
 }
+
 footer .footer-links a {
-	color: #003366;
+	color: #008FFE;   /* Bright Blue Links */
 	text-decoration: none;
 	font-weight: 500;
+	transition: 0.3s;
 }
 
-footer .footer-links a:hoover {
+footer .footer-links a:hover {
 	text-decoration: underline;
+	color: #025498;   /* Dark Blue on Hover */
 }
