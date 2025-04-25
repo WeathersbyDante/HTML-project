@@ -1,10 +1,9 @@
-/* Footer Styling */
 footer {
-	background-color: #DEF1FF;   /* Light/Faded Blue */
+	background-color: #DEF1FF; 
 	padding: 30px 20px;
 	text-align: center;
 	font-family: sans-serif;
-	color: #025498;   /* Dark Blue Text */
+	color: #025498;  
 	font-size: 0.95em;
 	margin-top: 40px;
 }
@@ -17,7 +16,7 @@ footer .footer-links {
 }
 
 footer .footer-links a {
-	color: #008FFE;   /* Bright Blue Links */
+	color: #008FFE;
 	text-decoration: none;
 	font-weight: 500;
 	transition: 0.3s;
@@ -25,5 +24,5 @@ footer .footer-links a {
 
 footer .footer-links a:hover {
 	text-decoration: underline;
-	color: #025498;   /* Dark Blue on Hover */
+	color: #025498;
 }
