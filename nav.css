@@ -1,5 +1,5 @@
 nav {
-	background-color: #003366;
+	background-color: #025498;
 	padding: 10px 20px;
 	display: flex;
 	justify-content: space-between;
@@ -23,16 +23,13 @@ nav ul {
 	gap: 20px;
 }
 
-nav ul li {
-	display: align;
-}
-
 nav ul li a {
 	color: white;
-	text-decoration: none
+	text-decoration: none;
 	font-weight: 500;
+	transition: 0.3s;
 }
 
-nav ul li a: hoover {
-	color: #ffcc00;
+nav ul li a:hover {
+	color: #008FFE;
 }
