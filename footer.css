@@ -1,9 +1,10 @@
+/* Footer Styling */
 footer {
-	background-color: #DEF1FF; 
+	background-color: #DEF1FF;
 	padding: 30px 20px;
 	text-align: center;
 	font-family: sans-serif;
-	color: #025498;  
+	color: #025498;
 	font-size: 0.95em;
 	margin-top: 40px;
 }
