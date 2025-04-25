@@ -1,0 +1,29 @@
+/* Footer Styling */
+footer {
+	background-color: #DEF1FF;
+	padding: 30px 20px;
+	text-align: center;
+	font-family: sans-serif;
+	color: #025498;
+	font-size: 0.95em;
+	margin-top: 40px;
+}
+
+footer .footer-links {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	margin-bottom: 10px;
+}
+
+footer .footer-links a {
+	color: #008FFE;
+	text-decoration: none;
+	font-weight: 500;
+	transition: 0.3s;
+}
+
+footer .footer-links a:hover {
+	text-decoration: underline;
+	color: #025498;
+}
