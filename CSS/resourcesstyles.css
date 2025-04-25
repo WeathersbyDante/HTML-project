@@ -9,7 +9,7 @@ body {
     font-family: Georgia, sans-serif;
     background-color: #FFFFFF;
     margin: 0;
-    padding: 50px;
+    padding: 0;
     text-align: center;
 }
 
@@ -64,6 +64,9 @@ text-decoration: none;
   border-radius: 10px;
   font-weight: 500;
 }
+
+/* First part resource section */
+
     .top-section {
       text-align: center;
       padding: 40px 20px;
@@ -130,7 +133,7 @@ text-decoration: none;
   background-color: #025498;
   color: white;
   font-family: sans-serif;
-  padding: 40px 20px;
+  padding: 40px 0px;
   width: 100%;
 }
 
@@ -184,6 +187,6 @@ text-decoration: none;
 
 .footer-bottom p {
   color: #ffffff;
-  margin: 10px 0;
+  margin: 10px 20px;
 }
 
