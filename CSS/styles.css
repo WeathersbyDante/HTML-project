@@ -1,13 +1,15 @@
 /* Global Styles */
 {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
     font-family: Georgia, sans-serif;
     background-color: #FFFFFF;
     margin: 0;
-    padding: 50px;
+    padding: 0;
     text-align: center;
 }
 
@@ -64,7 +66,7 @@ text-decoration: none;
 }
 
 .spacer {
-  margin: 0px 0px 0px 0px;
+  margin: 0px;
   height: 5px;
   background-color: #e0f2fe;
 }
@@ -437,7 +439,7 @@ text-align: left;
   background-color: #025498;
   color: white;
   font-family: sans-serif;
-  padding: 40px 20px;
+  padding: 40px 0px;
   width: 100%;
 }
 
@@ -488,6 +490,12 @@ text-align: left;
   flex-wrap: wrap;
   padding: 0 20px;
 }
+
+.footer-bottom p {
+  color: #ffffff;
+  margin: 10px 20px;
+}
+
 
 .footer-bottom p {
   color: #ffffff;
