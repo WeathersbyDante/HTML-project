@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DigiScholar - About Us</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: #fefefe;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, #007bff, #3399ff);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header img {
+      height: 40px;
+    }
+    nav a {
+      color: white;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .about-section {
+      text-align: center;
+      padding: 2rem;
+    }
+    .about-section h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+    .about-section h2 span {
+      color: #007bff;
+    }
+    .subtext {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      color: #555;
+    }
+    .icon-section {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .icon-section img {
+      height: 80px;
+    }
+    .why-we-exist {
+      background-color: #007bff;
+      color: white;
+      border-radius: 1.5rem;
+      margin: 2rem auto;
+      padding: 2rem;
+      max-width: 700px;
+      text-align: center;
+    }
+    .goals-section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .goals-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+      counter-reset: goal-counter;
+    }
+    .goals-list div {
+      font-size: 1.1rem;
+      position: relative;
+      padding-left: 2rem;
+      color: #333;
+    }
+    .goals-list div::before {
+      content: counter(goal-counter);
+      counter-increment: goal-counter;
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-size: 2rem;
+      color: #007bff;
+      font-weight: 700;
+    }
+    .values-section {
+      text-align: center;
+      padding: 2rem;
+    }
+    .values-images {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .values-images div {
+      width: 300px;
+      background-color: #e6f0ff;
+      border-radius: 1rem;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .values-images img {
+      width: 100%;
+      display: block;
+      filter: brightness(0.7);
+    }
+    .values-images p {
+      padding: 1rem;
+      font-weight: 600;
+    }
+    .team-section {
+      text-align: center;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .team-grid div {
+      background-color: #e6f0ff;
+      border-radius: 999px;
+      padding: 0.75rem;
+      font-weight: 600;
+      color: #007bff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .footer {
+      background-color: #001f3f;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 2rem;
+    }
+    .footer nav {
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+    .footer nav a {
+      color: #7ecfff;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.95rem;
+    }
+    .footer nav a:hover {
+      text-decoration: underline;
+    }
+    .social-icons {
+      margin-top: 1rem;
+    }
+    .social-icons img {
+      height: 24px;
+      margin: 0 0.5rem;
+      filter: invert(1);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="/Images/logo_transparent.png" alt="DigiScholar Logo">
+  <nav>
+    <a href="#">Scholarships</a>
+    <a href="#">Resources</a>
+    <a href="#">About</a>
+    <a href="#">Login</a>
+  </nav>
+</header>
+
+<section class="about-section">
+  <h2>About <span>Us</span></h2>
+  <p class="subtext">We're Bridging the Digital Divide, One Student at a Time.</p>
+</section>
+
+<div class="icon-section">
+  <img src="/Images/logo.png" alt="Shield Icon">
+</div>
+
+<section class="why-we-exist">
+  <h3>Why We Exist:</h3>
+  <p>We believe digital literacy is essential for success in today's world, but not everyone has equal access to the tools or education needed to get there. We're here to make digital education accessible to all students, regardless of background, through free tools, learning opportunities, and scholarship support.</p>
+  <br>
+  <h3>What We're Solving:</h3>
+  <p>Too many students are left behind due to barriers around digital know-how. These gaps can lead to missed academic opportunities, limited career options, and vulnerability online. The digital divide isn't just about devices — it's about empowerment, equity, and access to essential knowledge.</p>
+</section>
+
+<section class="goals-section">
+  <h3>Our Goals</h3>
+  <div class="goals-list">
+    <div>Support student success</div>
+    <div>Strengthen digital literacy</div>
+    <div>Promote safe and ethical tech use</div>
+    <div>Uplift underserved communities</div>
+    <div>Create a trusted hub</div>
+  </div>
+</section>
+
+<section class="values-section">
+  <h3>Our Values</h3>
+  <div class="values-images">
+    <div>
+      <img src="/Images/Education-Image.png" alt="Equity in Education">
+      <p>Equity in Education</p>
+    </div>
+    <div>
+      <img src="/Images/Inclusivity-Image.png" alt="Inclusivity in Tech">
+      <p>Inclusivity in Tech</p>
+    </div>
+    <div>
+      <img src="/Images/Responsibility-Image.png" alt="Digital Responsibility">
+      <p>Digital Responsibility</p>
+    </div>
+  </div>
+</section>
+
+<section class="team-section">
+ <h3>Meet the Dev Team</h3>
+  <div class="team-grid">
+    <div>
+      Nestor R.
+      <br>
+      <small>concept originator & lead researcher</small>
+    </div>
+    <div>
+      Ian A.
+      <br>
+      <small>Project coordinator & lead designer</small>
+    </div>
+    <div>
+      Dante W.
+      <br>
+      <small>Repository & hosting manager</small>
+    </div>
+    <div>
+      Brandon C.
+      <br>
+      <small>Logo Designer </small>
+    </div>
+    <div>
+      Junior G.
+      <br>
+      <small>web page Developer</small>
+    </div>
+    <div>
+      Ayomide O.
+      <br>
+      <small>Web page Developer/small>
+    </div>
+    <div>
+      Jayden C.
+      <br>
+      <small>Web Page Developer</small>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>DigiScholar.com</p>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Scholarships</a>
+    <a href="#">Digital Resources</a>
+    <a href="#">Support</a>
+    <a href="#">Contact</a>
+    <a href="#">FAQs</a>
+    <a href="#">Terms of Service</a>
+  </nav>
+</footer>
+
+</body>
+</html>
